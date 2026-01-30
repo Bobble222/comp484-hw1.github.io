@@ -1,0 +1,72 @@
+Order: headings, paragraphs, line breaks, emphasis, special characters, insert images.
+
+Step 1 changes: (heading strategy)
+
+    index.html
+        Assign line 9 to h1.
+        Assign line 10 to h2.
+        Assign line 20 and 34 to h3.
+
+    links.html
+        Assign line 9 to h1.
+        Assign line 10 to h2.
+        Assign line 19,24,26,29,37, and 42 to h2.
+    
+    next.html
+        Assign line 9 to h1.
+        Assign line 10 to h2.
+        Assign line 19,29 to h3.
+        Assign line 29,30,31,32,34,35,36,37,38,40, and 42 to h4.
+
+    reference.html
+        Assign line 9 to h1.
+        Assign line 10 to h2.
+        Assign line 19 and 66 to h3.
+
+    structure.html
+        Assign line 9 to h1.
+        Assign line 10 to h2.
+        Assign line 19,25,29, and 32 to h3.
+
+    syntax.html
+        Assign line 9 to h1.
+        Assign line 10 to h2.
+        Assign line 19,24,34,43,46,49,57,59, and 61 to h3.
+        Assign line 36,38, and 40 to h4.
+
+    
+Step 2 changes: paragraph strategy
+
+    index.html
+        Assign line 18 to p after the image.
+        Assign line 22,24,26,28,30 and 32 to p.
+
+
+Step 3 changes: controlling line breaks
+    next.html
+        added a br tag on line 21 after "Learn how the web works."
+        added a br tag on line 23 after "Determine an area of focus, and start there."
+        added a br tag on line 25 after "Never stop learning"
+        added a br tag on line 27 after "Break things!"
+
+Step 4 changes: Determining emphasis
+    next.html
+        added a strong tag on line 21 encasing "Learn how the web works."
+        added a strong tag on line 23 encasing "Determine an area of focus, and start there."
+        added a strong tag on line 25 encasing "Never stop learning"
+        added a strong tag on line 27 encasing "Break things!"
+        added an i tag after both instances of &ldquo; and ending before both instances of &rdquo; on line 28.
+        added a em tag on line 28 encasing "Always challenge yourself."
+        added b tag on lines 29,30,31,32,34,35,36,37,38,40, and 42.
+
+
+Step 5 changes: Displaying special characters
+    reference.html
+        changed line 74 to add " between the td tag.
+        added &ldquo; and &rdquo; around both instances of tags on line 40.
+
+
+Step 6 changes: Inserting Images
+    index.html
+        Added the following at the start of line 30:
+            <img src="images/W3C_Icon.png" alt="W3C logo" width="200" height="136" class="flowLeft">
